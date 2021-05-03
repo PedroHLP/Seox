@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Css/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100&display=swap" rel="stylesheet">
     <title>Seox</title>
 </head>
 
@@ -13,6 +15,11 @@
     <nav>
         <div>
             <div id="hamburguer">
+                <svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.00024 6.33337H17.0002" stroke="#FF7C76" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M1.00024 1H17.0002" stroke="#FF7C76" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M1.00024 11.6666H17.0002" stroke="#FF7C76" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
 
             </div>
 
@@ -20,11 +27,127 @@
                 LOGO
             </a>
 
-            <div id="barra-pesquisa">
-                O que você procura hoje?
+
+            <div class="layout-ajuste">
+                <input class="barra-pesquisa" type="O que você procura hoje?" placeholder="O que você procura hoje?" aria-label="O que você procura hoje?" id="barra-pesquisa"></input>
+                <svg id="ajuste-lupa-icon" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.11172 15.2222C12.0394 15.2222 15.2234 12.0385 15.2234 8.11112C15.2234 4.18375 12.0394 1 8.11172 1C4.18403 1 1 4.18375 1 8.11112C1 12.0385 4.18403 15.2222 8.11172 15.2222Z" stroke="#5A4B49" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M16.9995 17L13.1334 13.1333" stroke="#5A4B49" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
             </div>
+            <div class="layout-ajuste">
+                <input class="barra-compra" type="Comprar" placeholder="Comprar" aria-label="Comprar?"></input>
+                <svg id="ajuste-sacola-icon" width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.25073 1L1.00073 4.2V15.4C1.00073 15.8243 1.15877 16.2313 1.44007 16.5314C1.72138 16.8314 2.10291 17 2.50073 17H13.0007C13.3986 17 13.7801 16.8314 14.0614 16.5314C14.3427 16.2313 14.5007 15.8243 14.5007 15.4V4.2L12.2507 1H3.25073Z" stroke="#FF7C76" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M1.00073 4.20001H14.5007" stroke="#FF7C76" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M10.7496 7.40002C10.7496 8.24872 10.4336 9.06265 9.87095 9.66277C9.30835 10.2629 8.54528 10.6 7.74963 10.6C6.95398 10.6 6.19092 10.2629 5.62831 9.66277C5.0657 9.06265 4.74963 8.24872 4.74963 7.40002" stroke="#FF7C76" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+
+            </div>
+            <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.2244 17V15.2222C15.2244 14.2793 14.8497 13.3749 14.1829 12.7081C13.516 12.0413 12.6116 11.6667 11.6685 11.6667H4.55692C3.61385 11.6667 2.70942 12.0413 2.04257 12.7081C1.37573 13.3749 1.0011 14.2793 1.0011 15.2222V17" stroke="#FF7C76" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M8.11157 8.11111C10.0754 8.11111 11.6674 6.51924 11.6674 4.55556C11.6674 2.59188 10.0754 1 8.11157 1C6.14777 1 4.55579 2.59188 4.55579 4.55556C4.55579 6.51924 6.14777 8.11111 8.11157 8.11111Z" stroke="#FF7C76" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+
+            <div id="nome-cliente">Olá, Jaqueline</div>
+
         </div>
     </nav>
+
+
+
+
+    <div id="menu">
+
+        <svg id="profile-icon" width="30" height="32" viewBox="0 0 30 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M28.3764 30.328V27.1444C28.3764 25.4556 27.6872 23.8361 26.4604 22.6419C25.2337 21.4478 23.5698 20.777 21.8349 20.777H8.75193C7.01702 20.777 5.35317 21.4478 4.12641 22.6419C2.89964 23.8361 2.21045 25.4556 2.21045 27.1444V30.328" stroke="#DEDBDB" stroke-opacity="0.75" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M15.2923 14.4089C18.9051 14.4089 21.8338 11.5581 21.8338 8.04151C21.8338 4.5249 18.9051 1.67413 15.2923 1.67413C11.6796 1.67413 8.75085 4.5249 8.75085 8.04151C8.75085 11.5581 11.6796 14.4089 15.2923 14.4089Z" stroke="#DEDBDB" stroke-opacity="0.75" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg> Jaqueline de Oliveira
+
+        <div id="ajuste-pedidos">
+            <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.2246 6.75386L5.0332 2.71719" stroke="#FF5448" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M15.8203 11.8873V5.66507C15.82 5.39229 15.746 5.12437 15.6058 4.8882C15.4656 4.65203 15.264 4.45591 15.0213 4.31952L9.42795 1.2084C9.18501 1.07188 8.90943 1 8.62891 1C8.34838 1 8.0728 1.07188 7.82986 1.2084L2.23655 4.31952C1.99385 4.45591 1.79226 4.65203 1.65201 4.8882C1.51177 5.12437 1.43779 5.39229 1.4375 5.66507V11.8873C1.43779 12.1601 1.51177 12.428 1.65201 12.6642C1.79226 12.9003 1.99385 13.0965 2.23655 13.2329L7.82986 16.344C8.0728 16.4805 8.34838 16.5524 8.62891 16.5524C8.90943 16.5524 9.18501 16.4805 9.42795 16.344L15.0213 13.2329C15.264 13.0965 15.4656 12.9003 15.6058 12.6642C15.746 12.428 15.82 12.1601 15.8203 11.8873Z" stroke="#FF5448" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M1.65283 4.85638L8.6285 8.78416L15.6042 4.85638" stroke="#FF5448" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M8.62891 16.6161V8.77612" stroke="#FF5448" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg> <a class="retirar-underline" href="./index.html">Meus Pedidos</a>
+        </div>
+        <div id="ajuste-dados">
+            <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.7079 15.5022V13.8908C14.7079 13.0361 14.3591 12.2164 13.7382 11.6121C13.1174 11.0077 12.2752 10.6682 11.3972 10.6682H4.77562C3.89755 10.6682 3.05544 11.0077 2.43455 11.6121C1.81366 12.2164 1.46484 13.0361 1.46484 13.8908V15.5022" stroke="#FF5448" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M8.08604 7.44531C9.91454 7.44531 11.3968 6.00248 11.3968 4.22266C11.3968 2.44283 9.91454 1 8.08604 1C6.25755 1 4.77527 2.44283 4.77527 4.22266C4.77527 6.00248 6.25755 7.44531 8.08604 7.44531Z" stroke="#FF5448" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg> <a class="retirar-underline" href="./index.html">Meus Dados</a>
+        </div>
+        <div id="ajuste-enderecos">
+            <svg width="15" height="17" viewBox="0 0 15 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.0732 7.13636C14.0732 11.9091 7.769 16 7.769 16C7.769 16 1.46484 11.9091 1.46484 7.13636C1.46484 5.5089 2.12903 3.94809 3.31129 2.7973C4.49355 1.64651 6.09703 1 7.769 1C9.44096 1 11.0445 1.64651 12.2267 2.7973C13.409 3.94809 14.0732 5.5089 14.0732 7.13636Z" stroke="#FF5448" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M7.77057 9.18188C8.93114 9.18188 9.87196 8.2661 9.87196 7.13643C9.87196 6.00675 8.93114 5.09097 7.77057 5.09097C6.61001 5.09097 5.66919 6.00675 5.66919 7.13643C5.66919 8.2661 6.61001 9.18188 7.77057 9.18188Z" stroke="#FF5448" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg> <a class="retirar-underline" href="./index.html">endereços</a>
+        </div>
+        <div id="ajuste-medidas">
+            <svg width="15" height="17" viewBox="0 0 15 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.1014 11.7668C12.4365 11.0386 11.1897 10.4723 11.5222 9.17776C11.8546 7.88326 13.7664 2.94798 13.4339 2.13892C13.1014 1.32986 12.3534 0.601702 10.7741 1.24895C9.19486 1.81529 7.86496 2.78617 7.86496 2.78617L7.69873 3.51432L7.53249 2.78617C7.53249 2.78617 6.11948 1.8962 4.62334 1.24895C3.04409 0.601702 2.29603 1.41076 1.96355 2.13892C1.63108 2.94798 3.5428 7.88326 3.87528 9.17776C4.20775 10.4723 2.87786 11.0386 2.21291 11.7668C1.54796 12.4949 1.46484 13.5467 1.46484 13.5467C3.62592 14.7603 7.61561 15.9739 7.61561 15.9739C7.61561 15.9739 11.6053 14.7603 13.7664 13.5467C13.8495 13.5467 13.7664 12.4949 13.1014 11.7668Z" stroke="#FF5448" stroke-width="1.5"/>
+                </svg> <a class="retirar-underline" href="./index.html">Minhas Medidas</a>
+        </div>
+        <div id="ajuste-conta">
+            <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.309 7.77734H2.92144C2.10188 7.77734 1.4375 8.42404 1.4375 9.22179V14.2774C1.4375 15.0751 2.10188 15.7218 2.92144 15.7218H13.309C14.1286 15.7218 14.793 15.0751 14.793 14.2774V9.22179C14.793 8.42404 14.1286 7.77734 13.309 7.77734Z" stroke="#FF5448" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M4.4054 7.77734V4.88845C4.4054 3.93073 4.79625 3.01223 5.49199 2.33501C6.18772 1.6578 7.13133 1.27734 8.11525 1.27734C9.09916 1.27734 10.0428 1.6578 10.7385 2.33501C11.4342 3.01223 11.8251 3.93073 11.8251 4.88845V7.77734" stroke="#FF5448" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg> <a class="retirar-underline" href="./index.html">Minha conta</a>
+        </div>
+        <div>
+            Sair
+        </div>
+
+    </div>
+    <div class="menu-pedidos">
+        <div class="wrapper">
+
+            <div id="quadrado-verde">
+
+                <svg width="18 " id="check-icon" height="17 " viewBox="0 0 18 17 " fill="none " xmlns="http://www.w3.org/2000/svg ">
+                <path d="M6 7.66668L8.5 10.1667L16.8333 1.83334 " stroke="white " stroke-width="1.5 " stroke-linecap="round " stroke-linejoin="round "/>
+                <path d="M16 8.5V14.3333C16 14.7754 15.8244 15.1993 15.5118 15.5118C15.1993 15.8244 14.7754 16 14.3333 16H2.66667C2.22464 16 1.80072 15.8244 1.48816 15.5118C1.17559 15.1993 1 14.7754 1 14.3333V2.66667C1 2.22464 1.17559 1.80072 1.48816
+                    1.48816C1.80072 1.17559 2.22464 1 2.66667 1H11.8333 " stroke="white " stroke-width="1.5 " stroke-linecap="round " stroke-linejoin="round "/>
+                </svg>
+                <a>
+            </div>
+            <div style="margin-right: 109px;">
+                <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.4134 6.15846L4.13782 2.53955" stroke="#FF5448" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M13.5511 10.7606V5.18228C13.5509 4.93773 13.4863 4.69754 13.3639 4.48581C13.2416 4.27408 13.0656 4.09826 12.8539 3.97598L7.97286 1.18684C7.76086 1.06444 7.52037 1 7.27557 1C7.03077 1 6.79029 1.06444 6.57829 1.18684L1.69729 3.97598C1.48549 4.09826 1.30958 4.27408 1.18719 4.48581C1.06481 4.69754 1.00025 4.93773 1 5.18228V10.7606C1.00025 11.0051 1.06481 11.2453 1.18719 11.457C1.30958 11.6688 1.48549 11.8446 1.69729 11.9669L6.57829 14.756C6.79029 14.8784 7.03077 14.9429 7.27557 14.9429C7.52037 14.9429 7.76086 14.8784 7.97286 14.756L12.8539 11.9669C13.0656 11.8446 13.2416 11.6688 13.3639 11.457C13.4863 11.2453 13.5509 11.0051 13.5511 10.7606Z" stroke="#FF5448" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M1.18823 4.45734L7.27554 7.97863L13.3628 4.45734" stroke="#FF5448" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M7.27557 14.9998V7.97116" stroke="#FF5448" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg> <a>Pedido #17048</a>
+                </a>
+            </div>
+            <div style="margin-right: 97px;">
+                <svg width="54" height="35" viewBox="0 0 54 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="1" y="1" width="33" height="33" rx="16.5" fill="black" stroke="white" stroke-width="2"/>
+                    <rect x="19.9453" y="1" width="33" height="33" rx="16.5" fill="black" stroke="white" stroke-width="2"/>
+                </svg>
+                <a id="valor">980,00</a>
+            </div>
+            <div>
+                <div>
+                    <a>
+                        Mais detalhes
+                    </a>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+    <div class="menu-pedidos " style="margin-top: 20%; ">
+
+    </div>
+
+
+
+
+
 </body>
 
 </html>

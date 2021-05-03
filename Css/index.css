@@ -1,9 +1,11 @@
+/* nav */
+
 #hamburguer {
     width: 20px;
     height: 20px;
-    background-color: red;
     display: inline-block;
     margin-left: 20%;
+    font-family: archivo;
 }
 
 #logo {
@@ -11,14 +13,35 @@
     color: #FF7C76;
     font-size: 20px;
     font-weight: bolder;
+    font-family: archivo;
+}
+
+#background-teste-site {
+    background-color: #FF7C76;
+}
+
+.layout-ajuste {
+    display: inline;
+}
+
+#ajuste-sacola-icon {
+    position: absolute;
+    margin-top: 7px;
+    margin-left: -34px;
 }
 
 body {
     background-color: #E5E5E5;
 }
 
-#barra-pesquisa {
-    height: 21px;
+#ajuste-lupa-icon {
+    margin-top: 6px;
+    margin-left: -37px;
+    position: absolute;
+}
+
+.barra-pesquisa {
+    height: 36px;
     width: 417px;
     display: inline-block;
     padding: 6px;
@@ -27,4 +50,113 @@ body {
     border: 1px solid #646464;
     color: #5A4B49;
     background-color: #E5E5E5;
+    font-family: archivo;
+}
+
+.barra-compra {
+    height: 36px;
+    width: 220px;
+    display: inline-block;
+    padding: 6px;
+    background-color: #FFF;
+    border-radius: 16px;
+    border: 1px solid #646464;
+    color: #5A4B49;
+    background-color: #E5E5E5;
+    font-family: archivo;
+}
+
+#nome-cliente {
+    display: inline;
+    font-family: archivo;
+}
+
+
+/* fim nav */
+
+#profile-icon {
+    margin: auto;
+}
+
+#ajuste-pedidos {
+    margin-right: 41%;
+}
+
+#ajuste-dados {
+    margin-right: 43%;
+}
+
+#ajuste-enderecos {
+    margin-right: 47%;
+}
+
+#ajuste-medidas {
+    margin-right: 34%;
+}
+
+#ajuste-conta {
+    margin-right: 42%;
+}
+
+#menu {
+    font-family: archivo;
+    width: 310px;
+    height: 536px;
+    margin-left: 167px;
+    margin-top: 79px;
+    background-color: #FFF;
+    text-align: center;
+    display: inline-grid;
+    border-radius: 13px;
+}
+
+.retirar-underline {
+    text-decoration: none;
+    color: #646464;
+}
+
+#quadrado-verde {
+    width: 50px;
+    height: 50px;
+    background-color: #82C91E;
+    border-radius: 8px;
+}
+
+#icone-pedidos {
+    display: inline;
+    margin-left: 17px;
+    margin-top: 11px;
+}
+
+.menu-pedidos {
+    width: 45%;
+    height: 30%;
+    background-color: #FFFFFF;
+    margin-left: 37%;
+    margin-top: -20%;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+#quadrado-verde {
+    width: 50px;
+    height: 50px;
+    background-color: #82C91E;
+}
+
+#check-icon {
+    padding: 15px;
+}
+
+#pedido {
+    /* margin-top: 1%;
+    margin-right: 53%; */
+}
+
+#valor {
+    position: absolute;
 }
